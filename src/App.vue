@@ -57,6 +57,7 @@
           this.errorCheck = true;
 
           if (error instanceof Error && error.message !== 'No results found for the city'){
+            this.errorCheck = false;
             Swal.fire({
               icon: 'error',
               title: 'Oops...',

@@ -23,7 +23,7 @@
     data () {
       return {
         apiKey: 'a8d599f6287f9b5534c52fbe85ec9645',
-        url_geo: 'http://api.openweathermap.org/geo/1.0/direct?',
+        url_geo: 'https://api.openweathermap.org/geo/1.0/direct?',
         city: '',
         lat: '',
         lon: '',
